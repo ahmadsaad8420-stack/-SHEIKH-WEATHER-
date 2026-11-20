@@ -1,18 +1,20 @@
 {
+  "id": "./",
   "name": "SHEIKH WEATHER",
   "short_name": "SHEIKH WEATHER",
   "description": "SHEIKH WEATHER — live weather, forecasts, air quality and precipitation radar.",
+  "lang": "en",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "orientation": "any",
   "background_color": "#081326",
   "theme_color": "#0b1730",
+  "categories": ["weather", "utilities"],
   "icons": [
-    {
-      "src": "./assets/icons/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any maskable"
-    }
+    { "src": "./assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "./assets/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
   ]
 }

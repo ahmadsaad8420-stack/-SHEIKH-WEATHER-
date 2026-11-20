@@ -7,10 +7,12 @@ SHEIKH WEATHER — GitHub Pages Upload Guide (বাংলা)
   .nojekyll
   manifest.webmanifest
   service-worker.js
+  _headers, vercel.json  (ঐচ্ছিক)
   assets/
     css/styles.css
     js/app.js
-    icons/icon.svg
+    icons/        (svg + png)
+    vendor/leaflet/  (Leaflet — অবশ্যই আপলোড করুন)
 
 গুরুত্বপূর্ণ:
 1. ZIP ফাইলটিকে GitHub-এ একক ফাইল হিসেবে আপলোড করবেন না।
@@ -30,4 +32,5 @@ SHEIKH WEATHER — GitHub Pages Upload Guide (বাংলা)
 যদি CSS URL-এ 404 আসে, তাহলে assets/css/styles.css GitHub Repository-এর Root-এর নিচে
 ঠিক ওই path-এ আপলোড হয়নি। এই ZIP-এ ফাইলটি আছে; সঠিকভাবে Extract করে সব contents আপলোড করতে হবে।
 
+নোট: এখন আর কোনো বাইরের CDN স্ক্রিপ্ট লাগে না (Leaflet সাইটের ভেতরেই আছে)।
 নোট: Live weather, geocoding, air quality ও radar-এর জন্য ইন্টারনেট প্রয়োজন।
